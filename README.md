@@ -1,2 +1,2 @@
-# FloTask
-Hack Harvard Project
+# Recursive-Graphics
+Final Project for CSC 212
