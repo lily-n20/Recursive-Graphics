@@ -12,3 +12,7 @@ Final Project for CSC 212
 
 **_Save each output to a PDF or image file_**
 
+USE/Research:
+- L Systems
+- Python Turtle
+- Tessellation (extra if we finish?)
