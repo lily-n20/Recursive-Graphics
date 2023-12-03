@@ -16,3 +16,25 @@ USE/Research:
 - L Systems
 - Python Turtle
 - Tessellation (extra if we finish?)
+
+
+### Python Setup
+```
+pip install matplotlib
+```
+if an upgrade is needed, run the command:
+```
+pip install --upgrade pip
+```
+
+### Sierpinski Triangle
+To create the l-system.txt file:
+```
+g++ SierpinskiTriangle.cpp -o sierpinski
+./sierpinski 5
+```
+To plot the l-system into a viewable image:
+```
+python lsystemplotter.py l-system.txt sierpinski.png 120
+```
+
