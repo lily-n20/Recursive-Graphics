@@ -56,6 +56,12 @@ def turtle_to_coords(turtle_program, turn_amount=60):
                      angle)
 
             yield (state[0], state[1])
+            
+        elif command == 'B':
+            state = (x + cos(angle * DEGREES_TO_RADIANS),
+                     y - sin(angle * DEGREES_TO_RADIANS),
+                     angle)
+            yield (state[0], state[1])
 
         elif command == '+':     # Turn turtle clockwise without moving
             state = (x, y, angle + turn_amount)
