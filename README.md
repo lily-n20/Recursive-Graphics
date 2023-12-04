@@ -30,7 +30,8 @@ pip install --upgrade pip
 ### Sierpinski Triangle
 To create the l-system.txt file:
 ```
- g++ STriangle.cpp -o sTriangle && ./sTriangle 5
+g++ STriangle.cpp -o sTriangle
+./sTriangle 5
 ```
 To plot the l-system into a viewable image:
 ```
