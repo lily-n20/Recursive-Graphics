@@ -37,4 +37,9 @@ To plot the l-system into a viewable image:
 ```
 python lsystemplotter.py l-system.txt sierpinski.png 120
 ```
-
+### Hilbert's Curve
+To create the l-system.txt file:
+```
+g++ Hilbert.cpp -o hilbert
+./hilbert l-system.txt 4
+```
