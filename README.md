@@ -50,5 +50,6 @@ python3 l-system-plotter.py l-system.txt hilbertCurve 90
 
 ### L-System Plotter
 The L-System plotter comes with the functionality of asking the user for a color for the plot background and lines. The list of available colors can be found here:
+
 ![image](https://github.com/lily-n20/Recursive-Graphics/assets/113806047/eff943d5-e0db-4de8-9122-46c201d021f3)
 
