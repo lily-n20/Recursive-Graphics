@@ -43,3 +43,7 @@ To create the l-system.txt file:
 g++ Hilbert.cpp -o hilbert
 ./hilbert l-system.txt 4
 ```
+To plot the l-system into a viewable image:
+```
+python3 l-system-plotter.py l-system.txt hilbertCurve 90 
+```
