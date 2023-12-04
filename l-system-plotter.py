@@ -8,7 +8,7 @@ import sys
 from math import pi, sin, cos
 DEGREES_TO_RADIANS = pi / 180
 from math import isnan
-plt.rcParams['axes.facecolor'] = 'orange'
+plt.rcParams['axes.facecolor'] = 'green'
 # cmap=plt.get_cmap('ocean')
 
 
@@ -18,7 +18,7 @@ def plot_coords(coords, fname, bare_plot=False):
         plt.axis('off')
 
      # Set the background color
-    plt.gcf().set_facecolor('orange')
+    plt.gcf().set_facecolor('green')
     # Ensures equal aspect ratio.
     plt.axes().set_aspect('equal', 'datalim')
     # Converts a list of coordinates into
@@ -26,7 +26,7 @@ def plot_coords(coords, fname, bare_plot=False):
     X, Y = zip(*coords)
     # Draws the plot.
    # cm=plt.get_cmap('ocean')
-    plt.plot(X, Y, 'b');
+    plt.plot(X, Y, 'r');
     plt.axis('off')
     plt.savefig(fname)
 
