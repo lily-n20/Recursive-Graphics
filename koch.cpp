@@ -1,7 +1,6 @@
-#include <string>
 #include <iostream>
+#include <string>
 #include <fstream>
-#include <cmath>
 
 // F = move forward
 // + = turn left 60
@@ -20,18 +19,18 @@ std::string koch_curve(int level){
 
 int main(int argc, char* argv[]) {
     //take in level of complexity
-    int depth = std::stof(argv[1]);
+    int level = std::stof(argv[1]);
     //create output file
     std::ofstream L_string("l-system.txt");
 
     //exception handling
-    if(depth < 1){
-        depth = 1;
+    if(level < 1){
+        level = 1;
     }
 
     //call curve three times to create snowflake
     for (int i = 0 ; i < 3 ; i++) {
-        L_string << koch_curve(depth);
+        L_string << koch_curve(level);
         L_string << "- - "; //turn right 120 degrees before next line
     }
 
