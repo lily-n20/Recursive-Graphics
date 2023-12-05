@@ -1,6 +1,7 @@
 # Recursive-Graphics
 Recursive graphics are composed of  a simple shape being drawn repeatedly to form complex and captivating images. Through the iterative process of recursion, fractals are created and repeated to create a larger image. Many of these graphics mesmerizing patterns are well known among math and computer science as understanding how recursion works is important to problem solving and realizing how code can be reused to create elegant solutions.  
-
+In our project, we explore the three recursive fractals: Sierpinski triangle, Koch Snowflake, and the Hilbert Curve by utilizing Python Turtle to visualize our C++ program.
+We chose recursive graphics because we wanted to explore recursion more in depth. We also enjoyed the visualization aspect of the project where we could creatively implement code. We utilized Python Turtle to visualize our fractals and implemented the recursive algorithms to generate the patterns for the L-system in C++.
 
 **Recursive Graphics**
 ^^^
@@ -46,7 +47,7 @@ python3 l-system-plotter.py l-system.txt kSnowflake 60
 The l-system-plotter.py will then prompt you for a background color and then plot color. The color options that are available are listed below.
 
 ### Hilbert's Curve
-To create the l-system.txt file:
+This cpp file writes commands to a text file to produce the Hilbert Curve fractal. The libraries needed in order to run this are iostream and fstream. When compiling this file you should use this command:
 ```
 g++ hilbert.cpp -o hilbert
 ./hilbert l-system.txt <num of levels>
