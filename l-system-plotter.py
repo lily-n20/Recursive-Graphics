@@ -80,10 +80,6 @@ def get_color_input(prompt):
         else:
             print("Invalid color. Please enter a valid color.")
 
-# Ask user for colors
-background_color = get_color_input('Enter background color: ')
-plot_color = get_color_input('Enter plot color: ')
-
 # Handle command line arguments
 try:
     in_fname = sys.argv[1]
@@ -92,6 +88,13 @@ try:
 except IndexError:
     print("Please provide an input file, an output file, and an angle.")
     sys.exit(1)
+except ValueError:
+    print("Invalid angle. Please enter a number.")
+    sys.exit(1)
+
+# Ask user for colors
+background_color = get_color_input('Enter background color: ')
+plot_color = get_color_input('Enter plot color: ')
 
 # Run the turtle program
 try:
@@ -99,6 +102,4 @@ try:
 except FileNotFoundError:
     print(f"File not found: {in_fname}")
     sys.exit(1)
-except ValueError:
-    print("Invalid angle. Please enter a number.")
-    sys.exit(1)
+
