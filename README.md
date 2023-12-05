@@ -1,5 +1,6 @@
 # Recursive-Graphics
 Recursive graphics are composed of  a simple shape being drawn repeatedly to form complex and captivating images. Through the iterative process of recursion, fractals are created and repeated to create a larger image. Many of these graphics mesmerizing patterns are well known among math and computer science as understanding how recursion works is important to problem solving and realizing how code can be reused to create elegant solutions.  
+
 In our project, we explore the three recursive fractals: Sierpinski triangle, Koch Snowflake, and the Hilbert Curve by utilizing Python Turtle to visualize our C++ program.
 We chose recursive graphics because we wanted to explore recursion more in depth. We also enjoyed the visualization aspect of the project where we could creatively implement code. We utilized Python Turtle to visualize our fractals and implemented the recursive algorithms to generate the patterns for the L-system in C++.
 
