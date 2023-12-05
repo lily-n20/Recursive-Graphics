@@ -33,6 +33,7 @@ python3 l-system-plotter.py l-system.txt sierpinski 120
 The l-system-plotter.py will then prompt you for a background color and then plot color. The color options that are available are listed below.
 
 ### Koch Snowflake
+This cpp file writes commands to a text file to produce the Koch curve fractal. The libraries needed in order to run this are string, iostream, and fstream. 
 To create the l-system.txt file:
 ```
 g++ koch.cpp -o ksnowflake
