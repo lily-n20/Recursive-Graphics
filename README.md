@@ -8,11 +8,14 @@ Final Project for CSC 212
 
 ### Python Setup
 ```
-pip install matplotlib
+pip install matplotlib (if computer uses python)
+pip3 install matplotlib (if computer uses python3)
+
 ```
 if an upgrade is needed, run the command:
 ```
-pip install --upgrade pip
+pip install --upgrade pip (if computer uses python)
+pip3 install --upgrade pip (if computer uses python3)
 ```
 
 ### Sierpinski Triangle
