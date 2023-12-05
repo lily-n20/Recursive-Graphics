@@ -1,5 +1,5 @@
 # Recursive-Graphics
-Final Project for CSC 212
+Recursive graphics are composed of  a simple shape being drawn repeatedly to form complex and captivating images. Through the iterative process of recursion, fractals are created and repeated to create a larger image. Many of these graphics mesmerizing patterns are well known among math and computer science as understanding how recursion works is important to problem solving and realizing how code can be reused to create elegant solutions.  
 
 
 **Recursive Graphics**
