@@ -31,17 +31,28 @@ pip install --upgrade pip
 To create the l-system.txt file:
 ```
 g++ STriangle.cpp -o sTriangle
-./sTriangle 5
+./sTriangle <num of levels>
 ```
 To plot the l-system into a viewable image:
 ```
 python3 l-system-plotter.py l-system.txt sierpinski 120
 ```
+### Koch Snowflake
+To create the l-system.txt file:
+```
+g++ koch.cpp -o ksnowflake
+./ksnowflake <num of levels>
+```
+To plot the l-system into a viewable image:
+```
+python3 l-system-plotter.py l-system.txt kSnowflake 60
+```
+
 ### Hilbert's Curve
 To create the l-system.txt file:
 ```
 g++ hilbert.cpp -o hilbert
-./hilbert l-system.txt 4
+./hilbert l-system.txt <num of levels>
 ```
 To plot the l-system into a viewable image:
 ```
