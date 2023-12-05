@@ -21,6 +21,7 @@ pip3 install --upgrade pip (if computer uses python3)
 ```
 
 ### Sierpinski Triangle
+This cpp file writes commands to a text file to produce the Sierpinski Triangle fractal. The libraries needed in order to run this are string, iostream, and fstream.
 To create the l-system.txt file:
 ```
 g++ STriangle.cpp -o sTriangle
